@@ -1,5 +1,5 @@
 import React from 'react'
-import { Footer, SectionFourth, SectionSec, SectionThird, SetionFirst } from '../components'
+import { SectionFourth, SectionSec, SectionThird, SetionFirst } from '../components'
 
 const Home = () => {
   return  <>
@@ -13,7 +13,6 @@ contend
   <div>
 contendt
   </div>
-  <Footer/>
   </>
 }
 

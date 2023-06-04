@@ -6,10 +6,11 @@ import { MyNavbar } from './components'
 
 const App = () => {
   return <>
-  <MyNavbar/>
   <Routes>
-  <Route path="/" element={<Home/>}/>
+  <Route path="/" element={<MyNavbar/>}>
+  <Route  index element={<Home/>}/>
   <Route path="*" element={<Page404/>}/>
+  </Route>
   </Routes>
   </>
 }
