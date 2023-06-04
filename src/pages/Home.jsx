@@ -1,7 +1,20 @@
 import React from 'react'
+import { Footer, SectionFourth, SectionSec, SectionThird, SetionFirst } from '../components'
 
-export const Home = () => {
-  return (
-    <div>Home</div>
-  )
+const Home = () => {
+  return  <>
+  <div>
+contend
+  </div>
+  <SetionFirst/>
+  <SectionSec/>
+  <SectionThird/>
+  <SectionFourth/>
+  <div>
+contendt
+  </div>
+  <Footer/>
+  </>
 }
+
+export default Home

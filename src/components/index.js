@@ -1,0 +1,6 @@
+export { default as MyNavbar } from "./MyNavbar"
+export { default as SetionFirst } from "./SetionFirst"
+export { default as SectionSec } from "./SectionSec"
+export { default as SectionThird } from "./SectionThird"
+export { default as SectionFourth } from "./SectionFourth"
+export { default as Footer } from "./Footer"

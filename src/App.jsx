@@ -1,10 +1,16 @@
 import React from 'react'
-import { Home } from './pages/Home'
+import { Route, Routes } from 'react-router-dom'
+import { Home, Page404 } from './pages'
+import { MyNavbar } from './components'
 
 
 const App = () => {
   return <>
-  <Home/>
+  <MyNavbar/>
+  <Routes>
+  <Route path="/" element={<Home/>}/>
+  <Route path="*" element={<Page404/>}/>
+  </Routes>
   </>
 }
 
